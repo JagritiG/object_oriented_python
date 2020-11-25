@@ -27,7 +27,7 @@ Class instances also have methods, defined in the class, for modifying its state
   to create a static method in python.
 - We generally use class method to create factory methods. Factory methods return class object
   (similar to a constructor) for different use cases. We generally use static methods to create utility functions.
-- Example: ex5_class_method.py](ex5_class_method.py), [ex6_static_method.py](ex6_static_method.py)
+- Example: [ex5_class_method.py](ex5_class_method.py), [ex6_static_method.py](ex6_static_method.py)
 
 ### Properties of Class Attribute (Example: [ex4_class_attribute.py](ex4_class_attribute.py))
 - A class attribute is like a global variable of the class which is available to all instances under the class.
