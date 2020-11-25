@@ -1,17 +1,21 @@
-- 1. Implementing __init__() in a superclass. We initialise an object by implementing __init__() method. __init__() method creates the object's instance
-     variables and performs any other one-time processing. (Example [ex1_init_in_superclass.py](ex1_init_in_superclass.py))
+## Object Oriented Python
 
-- 2. Example of instance attribute and instance method (Example: [ex2_instance_variable.py](ex2_instance_variable.py))
+* Implementing __init__() in a superclass. We initialise an object by implementing __init__() method.
+* __init__() method creates the object's instance variables and performs any other one-time processing.
 
-- 3. Example of initializing subclass using super() (Example: [ex3_initialize_subclass_using_super.py](ex3_initialize_subclass_using_super.py))
+1. Example of Superclass and Subclasses. (Example [ex1_init_in_superclass.py](ex1_init_in_superclass.py))
 
-- 4. Example of Class Attribute and instance method (Example: [ex4_class_attribute.py](ex4_class_attribute.py))
+2. Example of instance attribute and instance method (Example: [ex2_instance_variable.py](ex2_instance_variable.py))
 
-- 5. Example of Class Method (Example: [ex5_class_method.py](ex5_class_method.py))
+3. Example of initializing subclass using super() (Example: [ex3_initialize_subclass_using_super.py](ex3_initialize_subclass_using_super.py))
 
-- 6. Example of Static Method (Example: [ex6_static_method.py](ex6_static_method.py))
+4. Example of Class Attribute and instance method (Example: [ex4_class_attribute.py](ex4_class_attribute.py))
 
-- 7. Difference between @classmethod and @staticmethod:
+5. Example of Class Method (Example: [ex5_class_method.py](ex5_class_method.py))
+
+6. Example of Static Method (Example: [ex6_static_method.py](ex6_static_method.py))
+
+### Difference between @classmethod and @staticmethod:
      - A class method receives the class as implicit first argument,just like an instance method receives the instance.
        A static method does not receive an implicit first argument.
      - A class method can access or modify class state while a static method can’t access or modify it.
