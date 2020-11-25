@@ -18,18 +18,6 @@ Class instances also have methods, defined in the class, for modifying its state
 
 6. Example of Static Method (Example: [ex6_static_method.py](ex6_static_method.py))
 
-### Difference between @classmethod and @staticmethod:
-- A class method receives the class as implicit first argument,just like an instance method receives the instance.
-  A static method does not receive an implicit first argument.
-- A class method can access or modify class state while a static method can’t access or modify it.
-- Static methods know nothing about class state. They are utility type methods that take some parameters
-  and work upon those parameters. On the other hand class methods must have class as parameter.
-- We use @classmethod decorator in python to create a class method and we use @staticmethod decorator
-  to create a static method in python.
-- We generally use class method to create factory methods. Factory methods return class object
-  (similar to a constructor) for different use cases. We generally use static methods to create utility functions.
-- Example: [ex5_class_method.py](ex5_class_method.py), [ex6_static_method.py](ex6_static_method.py)
-
 ### Properties of Class Attribute (Example: [ex4_class_attribute.py](ex4_class_attribute.py))
 - A class attribute is like a global variable of the class which is available to all instances under the class.
 - The other benefit is, updating the class attribute updates all the instances of the class.
@@ -44,6 +32,18 @@ Class instances also have methods, defined in the class, for modifying its state
 - A static method does not receive an implicit first argument.
 - A static method is also a method which is bound to the class and not the object of the class.
 - A static method can’t access or modify class state.
+
+### Difference between @classmethod and @staticmethod:
+- A class method receives the class as implicit first argument,just like an instance method receives the instance.
+  A static method does not receive an implicit first argument.
+- A class method can access or modify class state while a static method can’t access or modify it.
+- Static methods know nothing about class state. They are utility type methods that take some parameters
+  and work upon those parameters. On the other hand class methods must have class as parameter.
+- We use @classmethod decorator in python to create a class method and we use @staticmethod decorator
+  to create a static method in python.
+- We generally use class method to create factory methods. Factory methods return class object
+  (similar to a constructor) for different use cases. We generally use static methods to create utility functions.
+- Example: [ex5_class_method.py](ex5_class_method.py), [ex6_static_method.py](ex6_static_method.py)
 
 
 [Ref: [geekesforgeeks](https://www.geeksforgeeks.org/class-method-vs-static-method-python/?ref=lbp), [medium.com](https://medium.com/@deva.r.p/object-oriented-programming-in-python-a-cheatsheet-7ff4711b9eea)]
