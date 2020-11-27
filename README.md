@@ -1,8 +1,8 @@
 ## Object Oriented Python
 
 ### Classes and Objects
-A class is a user-defined blueprint or prototype from which objects are created. An Object is an instance of a Class.
-We initialise an object by implementing __init__() method in Superclass. __init__() method creates the object's instance variables
+A **Class** is a user-defined blueprint or prototype from which objects are created. An **Object** is an instance of a Class.
+We initialise an object by implementing __init__() method in **Superclass**. __init__() method creates the object's instance variables
 and performs any other one-time processing. Each class instance have attributes, defined in the class, for maintaining its state.
 Class instances also have methods, defined in the class, for modifying its state.
 
