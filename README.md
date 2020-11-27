@@ -83,7 +83,7 @@ Class instances also have methods, defined in the class, for modifying its state
 ### Special methods (Example: [ex9_special_methods.py](ex9_special_methods.py))
     See [docs.python.org](https://docs.python.org/3/reference/datamodel.html#specialnames)
 
-- **object.__repr__()**:
+- **object.\__repr\__()**:
   - Called by the repr() built-in function to return a string containing a printable representation of an object.
   - A class can control what this function returns for its instances by defining a __repr__() method.
   - This is used for debugging, so it should be informative.
