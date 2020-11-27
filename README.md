@@ -1,4 +1,4 @@
-# Object Oriented Python
+## Object Oriented Python
 
 
 1. Example of single inheritance (Example [ex1_single_inheritance.py](ex1_single_inheritance.py))
@@ -26,20 +26,20 @@
 12. Example of Private instance variance (Example: [ex12_private_instance_var.py](ex12_private_instance_var.py))
 
 
-## Classes and Objects
+### Classes and Objects
 A **Class** is a user-defined blueprint or prototype from which objects are created. An **Object** is an instance of a Class.
 We initialise an object by implementing __init__() method in **Class**. __init__() method creates the object's instance variables
 and performs any other one-time processing. Each class instance have attributes, defined in the class, for maintaining its state.
 Class instances also have methods, defined in the class, for modifying its state.
 
-## Constructors
+### Constructors
 
 
-## Destructors
+### Destructors
 
 
 
-## Inheritance
+### Inheritance
 - **Inheritance** is the capability of one class to inherit the properties from another class.
 - It is transitive in nature. For example, if class B inherits from class A, then all the
   subclasses of B would automatically inherit from class A.
