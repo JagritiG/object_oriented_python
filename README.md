@@ -23,7 +23,7 @@
 
 11. Example of Multilevel inheritance (Example: [ex11_multilevel_inheritance.py](ex11_multilevel_inheritance.py))
 
-11. Example of Hierarchical inheritance (Example: [ex12_hierarchical_inheritance.py](ex12_hierarchical_inheritance.py))
+12. Example of Hierarchical inheritance (Example: [ex12_hierarchical_inheritance.py](ex12_hierarchical_inheritance.py))
 
 13. Example of Private instance variance (Example: [ex13_private_instance_var.py](ex13_private_instance_var.py))
 
