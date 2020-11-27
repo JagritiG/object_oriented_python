@@ -18,6 +18,12 @@ Class instances also have methods, defined in the class, for modifying its state
 
 6. Example of Static Method (Example: [ex6_static_method.py](ex6_static_method.py))
 
+7. Example of Decorator (Example: [ex7_decorator.py](ex7_decorator.py))
+
+8. Example of @property decorator (Example: [ex8_property_decorator.py](ex8_property_decorator.py))
+
+9. Example of Special Methods (Example: [ex9_special_methods.py](ex9_special_methods.py))
+
 ### Properties of Class Attribute (Example: [ex4_class_attribute.py](ex4_class_attribute.py))
 - A class attribute is like a global variable of the class which is available to all instances under the class.
 - The other benefit is, updating the class attribute updates all the instances of the class.
@@ -78,7 +84,7 @@ Class instances also have methods, defined in the class, for modifying its state
   - This method differs from object.__repr__() in that there is no expectation that __str__() return a valid
     Python expression: a more convenient or concise representation can be used.
 
-**Emulating Container Types
+#### Emulating Container Types
 - **object.__len__()**:
   - Defined to implement Container objects such as sequences (such as lists or tuples) or mappings (like dictionaries)
   - Called to implement the built-in function len()
@@ -116,11 +122,11 @@ Class instances also have methods, defined in the class, for modifying its state
   - This method should return a new iterator object that can iterate over all the objects in the container.
   - For mappings, it should iterate over the keys of the container.
 
-**Emulating numeric types**
+#### Emulating numeric types**
 - **object.__add__(self, other)**:
   - Called to implement the binary arithmetic operation (+)
 
-**Emulating callable objects**
+#### Emulating callable objects**
 - **object.__call__(self [, args...] )**:
   - Called when the instance is “called” as a function
 
