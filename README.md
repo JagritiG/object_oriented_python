@@ -7,7 +7,7 @@ and performs any other one-time processing. Each class instance have attributes,
 Class instances also have methods, defined in the class, for modifying its state.
 
 ### Inheritance
-- Inheritance is the capability of one class to inherit the properties from another class.
+- **Inheritance** is the capability of one class to inherit the properties from another class.
 - It is transitive in nature. For example, if class B inherits from class A, then all the
   subclasses of B would automatically inherit from class A.
 - **Single inheritance**: When a child class inherits from only one parent class, it is called single inheritance. (Example [ex1_single_inheritance.py](ex1_single_inheritance.py))
