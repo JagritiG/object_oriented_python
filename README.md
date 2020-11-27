@@ -83,60 +83,60 @@ Class instances also have methods, defined in the class, for modifying its state
 ### Special methods (Example: [ex9_special_methods.py](ex9_special_methods.py))
     See [docs.python.org](https://docs.python.org/3/reference/datamodel.html#specialnames)
 
-- **object.\__repr\__()**:
+- **_object.\__repr\__()_**:
   - Called by the repr() built-in function to return a string containing a printable representation of an object.
-  - A class can control what this function returns for its instances by defining a __repr__() method.
+  - A class can control what this function returns for its instances by defining a _\__repr\__()_ method.
   - This is used for debugging, so it should be informative.
 
-- **_object.\___str\___()_**:
+- **_object.\__str\__()_**:
   - Returns a printable string representation of an object
-  - This method differs from object.__repr__() in that there is no expectation that __str__() return a valid
+  - This method differs from _object.\__repr\__()_ in that there is no expectation that _\__str\__()_ return a valid
     Python expression: a more convenient or concise representation can be used.
 
 #### Emulating Container Types
-- **object.\__len\__()**:
+- **_object.\__len\__()_**:
   - Defined to implement Container objects such as sequences (such as lists or tuples) or mappings (like dictionaries)
   - Called to implement the built-in function len()
   - Return the length of the object, an integer >= 0.
-  - Also return, an object that doesn’t define a \__bool\__() method
-    and whose \__len\__() method returns zero is considered to be false in a Boolean context.
+  - Also return, an object that doesn’t define a _\__bool\__()_ method
+    and whose _\__len\__()_ method returns zero is considered to be false in a Boolean context.
 
-- **object.__getitem__(self, key)**:
+- **_object.\__getitem\__(self, key)_**:
   - Defined to implement Container objects such as sequences (such as lists or tuples) or mappings (like dictionaries)
   - Called to implement evaluation of self[key].
   - For sequence types, the accepted keys should be integers and slice objects.
   - Note that the special interpretation of negative indexes (if the class wishes to emulate a sequence type)
-    is up to the __getitem__() method.
+    is up to the _\__getitem\__()_ method.
   - If key is of an inappropriate type, TypeError may be raised;
   - if of a value outside the set of indexes for the sequence (after any special interpretation of negative values),
     IndexError should be raised. For mapping types, if key is missing (not in the container), KeyError should be raised.
 
-- **object.__setitem__(self, key, value)**:
+- **_object.\__setitem\__(self, key, value)_**:
   - Defined to implement Container objects such as sequences (such as lists or tuples) or mappings (like dictionaries)
   - Called to implement assignment to self[key]. Same note as for __getitem__().
   - This should only be implemented for mappings if the objects support changes to the values for keys,
     or if new keys can be added, or for sequences if elements can be replaced.
   - The same exceptions should be raised for improper key values as for the __getitem__() method.
 
-- **object.__delitem__(self, key)**:
+- **_object.\__delitem\__(self, key)_**:
   - Defined to implement Container objects such as sequences (such as lists or tuples) or mappings (like dictionaries)
-  - Called to implement deletion of self[key]. Same note as for __getitem__().
+  - Called to implement deletion of self[key]. Same note as for _\__getitem\__()_.
   - This should only be implemented for mappings if the objects support removal of keys,
     or for sequences if elements can be removed from the sequence.
-  - The same exceptions should be raised for improper key values as for the __getitem__() method.
+  - The same exceptions should be raised for improper key values as for the _\__getitem\__()_ method.
 
-- **object.__iter__(self)**:
+- **_object.\__iter\__(self)_**:
   - Defined to implement Container objects such as sequences (such as lists or tuples) or mappings (like dictionaries)
   - This method is called when an iterator is required for a container.
   - This method should return a new iterator object that can iterate over all the objects in the container.
   - For mappings, it should iterate over the keys of the container.
 
 #### Emulating numeric types**
-- **object.__add__(self, other)**:
+- **_object.\__add\__(self, other)_**:
   - Called to implement the binary arithmetic operation (+)
 
 #### Emulating callable objects**
-- **object.__call__(self [, args...] )**:
+- **_object.\__call\__(self [, args...] )_**:
   - Called when the instance is “called” as a function
 
 
