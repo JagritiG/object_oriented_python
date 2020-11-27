@@ -131,11 +131,11 @@ Class instances also have methods, defined in the class, for modifying its state
   - This method should return a new iterator object that can iterate over all the objects in the container.
   - For mappings, it should iterate over the keys of the container.
 
-#### Emulating numeric types**
+#### Emulating numeric types
 - **_object.\__add\__(self, other)_**:
   - Called to implement the binary arithmetic operation (+)
 
-#### Emulating callable objects**
+#### Emulating callable objects
 - **_object.\__call\__(self [, args...] )_**:
   - Called when the instance is “called” as a function
 
