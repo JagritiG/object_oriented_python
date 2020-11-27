@@ -1,20 +1,4 @@
-## Object Oriented Python
-
-### Classes and Objects
-A **Class** is a user-defined blueprint or prototype from which objects are created. An **Object** is an instance of a Class.
-We initialise an object by implementing __init__() method in **Class**. __init__() method creates the object's instance variables
-and performs any other one-time processing. Each class instance have attributes, defined in the class, for maintaining its state.
-Class instances also have methods, defined in the class, for modifying its state.
-
-### Inheritance
-- **Inheritance** is the capability of one class to inherit the properties from another class.
-- It is transitive in nature. For example, if class B inherits from class A, then all the
-  subclasses of B would automatically inherit from class A.
-- **Single inheritance**: When a child class inherits from only one parent class, it is called single inheritance. (Example [ex1_single_inheritance.py](ex1_single_inheritance.py))
-- **Multiple inheritance**: When a child class inherits from multiple parent classes, it is called multiple inheritance. (Example [ex10_multiple_inheritance.py](ex10_multiple_inheritance.py))
-- **Multilevel inheritance**: When we have a child and grandchild relationship. (Example [ex11_multilevel_inheritance.py](ex11_multilevel_inheritance.py))
-- **Private members of parent class**: We can make an instance variable of parent class private by adding double underscores before its name.
-  Private instance variables won't be inherited by the child class. (Example [ex12_private_instance_var.py](ex12_private_instance_var.py))
+# Object Oriented Python
 
 
 1. Example of single inheritance (Example [ex1_single_inheritance.py](ex1_single_inheritance.py))
@@ -34,6 +18,42 @@ Class instances also have methods, defined in the class, for modifying its state
 8. Example of @property decorator (Example: [ex8_property_decorator.py](ex8_property_decorator.py))
 
 9. Example of Special Methods (Example: [ex9_special_methods.py](ex9_special_methods.py))
+
+10. Example of Multiple inheritance (Example: [ex10_multiple_inheritance.py](ex10_multiple_inheritance.py))
+
+11. Example of Multilevel inheritance (Example: [ex11_multilevel_inheritance.py](ex11_multilevel_inheritance.py))
+
+12. Example of Private instance variance (Example: [ex12_private_instance_var.py](ex12_private_instance_var.py))
+
+
+## Classes and Objects
+A **Class** is a user-defined blueprint or prototype from which objects are created. An **Object** is an instance of a Class.
+We initialise an object by implementing __init__() method in **Class**. __init__() method creates the object's instance variables
+and performs any other one-time processing. Each class instance have attributes, defined in the class, for maintaining its state.
+Class instances also have methods, defined in the class, for modifying its state.
+
+## Constructors
+
+
+## Destructors
+
+
+
+## Inheritance
+- **Inheritance** is the capability of one class to inherit the properties from another class.
+- It is transitive in nature. For example, if class B inherits from class A, then all the
+  subclasses of B would automatically inherit from class A.
+- **Single inheritance**: When a child class inherits from only one parent class, it is called single inheritance. (Example [ex1_single_inheritance.py](ex1_single_inheritance.py))
+- **Multiple inheritance**: When a child class inherits from multiple parent classes, it is called multiple inheritance. (Example [ex10_multiple_inheritance.py](ex10_multiple_inheritance.py))
+- **Multilevel inheritance**: When we have a child and grandchild relationship. (Example [ex11_multilevel_inheritance.py](ex11_multilevel_inheritance.py))
+- **Private members of parent class**: We can make an instance variable of parent class private by adding double underscores before its name.
+  Private instance variables won't be inherited by the child class. (Example [ex12_private_instance_var.py](ex12_private_instance_var.py))
+
+### Encapsulation
+
+
+### Polymorphism
+
 
 ### Properties of Class Attribute (Example: [ex4_class_attribute.py](ex4_class_attribute.py))
 - A class attribute is like a global variable of the class which is available to all instances under the class.
@@ -73,11 +93,6 @@ Class instances also have methods, defined in the class, for modifying its state
 - Setter method sets the attribute value. Setter method takes only one value.
 - Deleter method deletes the assigned value by the setter method.
 
-
-### Encapsulation
-### Constructors
-### Destructors
-### Polymorphism
 ### Metaprogramming with Metaclass
 
 ### Special methods (Example: [ex9_special_methods.py](ex9_special_methods.py))

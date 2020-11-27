@@ -29,16 +29,16 @@ class Honda(Car):
 class Accord(Honda):
 
     # constructor
-    def __init__(self, name, price, year_built, model, status):
+    def __init__(self, name, price, year_built, model, condition):
         Honda.__init__(self, name, price, year_built, model)
-        self.status = status
+        self.condition = condition
 
-    # get accord info
-    def get_status(self):
-        return self.status
+    # get condition: new or old
+    def get_condition(self):
+        return self.condition
 
 
 if __name__ == "__main__":
 
     car = Accord("Honda Accord", 23000, "2018", "EX", "New")
-    print(car.get_info(), car.get_model(), car.get_status())
+    print(car.get_info(), car.get_model(), car.get_condition())
