@@ -4,32 +4,39 @@
 # superclass, Vehicle, applies to all the three subclasses- Car, Bike.
 
 
-# Creating Superclass
+# Creating Superclass or parent class
 class Vehicle:
-    def __init__(self, name, price):
-        self.name = name
+    def __init__(self, model, price):
+
+        # default constructor
+        self.make = "Honda"
+
+        # parameterized constructor
+        self.model = model
         self.price = price
 
+    def get_info(self):
+        return [self.make, self.model, self.price]
 
-# Creating subclasses
+
+# Creating subclasses or child class
 class Car(Vehicle):
 
-    def get_info(self):
-        return self.name, self.price
+    def __init__(self, model, price, status):
+        Vehicle.__init__(self, model, price)
+        self.status = status
 
-
-class Bike(Vehicle):
-
-    def get_info(self):
-        return self.name, self.price
+    def get_status(self):
+        return self.status
 
 
 if __name__ == "__main__":
-    vehicle1 = Car("Honda", 23000)
-    vehicle2 = Bike("Royal Enfield", 15000)
+    car1 = Car("Accord", 23000, "used")
+    print(car1.get_info(), car1.get_status())
 
-    print("Vehicle name: {}, price: {}".format(vehicle1.name, vehicle1.price))
-    print("Vehicle name: {}, price: {}".format(vehicle2.name, vehicle2.price))
+
+
+
 
 
 

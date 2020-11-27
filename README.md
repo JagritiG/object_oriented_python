@@ -23,21 +23,32 @@
 
 11. Example of Multilevel inheritance (Example: [ex11_multilevel_inheritance.py](ex11_multilevel_inheritance.py))
 
-12. Example of Private instance variance (Example: [ex12_private_instance_var.py](ex12_private_instance_var.py))
+11. Example of Hierarchical inheritance (Example: [ex12_hierarchical_inheritance.py](ex12_hierarchical_inheritance.py))
+
+13. Example of Private instance variance (Example: [ex13_private_instance_var.py](ex13_private_instance_var.py))
+
+14. Example of destructor (Example: [ex14_destructor.py](ex14_destructor.py))
 
 
 ### Classes and Objects
-A **Class** is a user-defined blueprint or prototype from which objects are created. An **Object** is an instance of a Class.
-We initialise an object by implementing __init__() method in **Class**. __init__() method creates the object's instance variables
-and performs any other one-time processing. Each class instance have attributes, defined in the class, for maintaining its state.
-Class instances also have methods, defined in the class, for modifying its state.
+- A **Class** is a user-defined blueprint or prototype from which objects are created.
+- An **Object** is an instance of a Class.
+- We initialise an object by implementing _\__init\__()_ method in **Class**.
+- _\__init\__()_ method creates the object's instance variables and performs any other one-time processing.
+- Each class instance have attributes, defined in the class, for maintaining its state.
+- Class instances also have methods, defined in the class, for modifying its state.
 
-### Constructors
+### Constructors (Example [ex1_single_inheritance.py](ex1_single_inheritance.py))
+- We initialise(assign values) an object using Constructors.
+- In Python the _\__init\__()_ method is called the constructor and is always called when an object is created.
+- _\__init\__()_ method creates the object's instance variables and performs any other one-time processing.
+- **Default constructor**: The default constructor does not accept any arguments.
+- **Parameterized constructor**: The parameterized constructor accepts arguments.
+  The parameterized constructor take _self_ as its first argument and the rest of the arguments are provided by the programmer.
 
-
-### Destructors
-
-
+### Destructors (Example: [ex14_destructor.py](ex14_destructor.py))
+- Destructors are called to destroy an object.
+- The _\__del\__()_ method is a known as a destructor method in Python.
 
 ### Inheritance
 - **Inheritance** is the capability of one class to inherit the properties from another class.
@@ -46,8 +57,10 @@ Class instances also have methods, defined in the class, for modifying its state
 - **Single inheritance**: When a child class inherits from only one parent class, it is called single inheritance. (Example [ex1_single_inheritance.py](ex1_single_inheritance.py))
 - **Multiple inheritance**: When a child class inherits from multiple parent classes, it is called multiple inheritance. (Example [ex10_multiple_inheritance.py](ex10_multiple_inheritance.py))
 - **Multilevel inheritance**: When we have a child and grandchild relationship. (Example [ex11_multilevel_inheritance.py](ex11_multilevel_inheritance.py))
+- **Hierarchical Inheritance**: More than one derived classes (child classes) are created from a single parent class in hierarchical inheritance.
 - **Private members of parent class**: We can make an instance variable of parent class private by adding double underscores before its name.
   Private instance variables won't be inherited by the child class. (Example [ex12_private_instance_var.py](ex12_private_instance_var.py))
+
 
 ### Encapsulation
 
