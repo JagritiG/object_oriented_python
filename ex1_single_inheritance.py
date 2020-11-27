@@ -1,3 +1,4 @@
+# Example of single inheritance
 # In the following example, we created a superclass Vehicle and three subclasses.
 # We factored the __init__() method into the superclass so that a common initialization in the
 # superclass, Vehicle, applies to all the three subclasses- Car, Bike.
