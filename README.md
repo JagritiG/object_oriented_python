@@ -71,7 +71,7 @@ Class instances also have methods, defined in the class, for modifying its state
 ### Polymorphism
 ### Metaprogramming with Metaclass
 
-### Special methods (Example: [ex9_special_methods.py](ex9_special_methods.py)
+### Special methods (Example: [ex9_special_methods.py](ex9_special_methods.py))
     See [docs.python.org](https://docs.python.org/3/reference/datamodel.html#specialnames)
 
 - **object.__repr__()**:
