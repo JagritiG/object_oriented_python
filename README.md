@@ -88,18 +88,18 @@ Class instances also have methods, defined in the class, for modifying its state
   - A class can control what this function returns for its instances by defining a __repr__() method.
   - This is used for debugging, so it should be informative.
 
-- **object.__str__()**:
+- **_object.\___str\___()_**:
   - Returns a printable string representation of an object
   - This method differs from object.__repr__() in that there is no expectation that __str__() return a valid
     Python expression: a more convenient or concise representation can be used.
 
 #### Emulating Container Types
-- **object.__len__()**:
+- **object.\__len\__()**:
   - Defined to implement Container objects such as sequences (such as lists or tuples) or mappings (like dictionaries)
   - Called to implement the built-in function len()
   - Return the length of the object, an integer >= 0.
-  - Also return, an object that doesn’t define a __bool__() method
-    and whose __len__() method returns zero is considered to be false in a Boolean context.
+  - Also return, an object that doesn’t define a \__bool\__() method
+    and whose \__len\__() method returns zero is considered to be false in a Boolean context.
 
 - **object.__getitem__(self, key)**:
   - Defined to implement Container objects such as sequences (such as lists or tuples) or mappings (like dictionaries)
