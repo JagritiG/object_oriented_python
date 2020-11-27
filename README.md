@@ -57,9 +57,9 @@
 - **Single inheritance**: When a child class inherits from only one parent class, it is called single inheritance. (Example [ex1_single_inheritance.py](ex1_single_inheritance.py))
 - **Multiple inheritance**: When a child class inherits from multiple parent classes, it is called multiple inheritance. (Example [ex10_multiple_inheritance.py](ex10_multiple_inheritance.py))
 - **Multilevel inheritance**: When we have a child and grandchild relationship. (Example [ex11_multilevel_inheritance.py](ex11_multilevel_inheritance.py))
-- **Hierarchical Inheritance**: More than one derived classes (child classes) are created from a single parent class in hierarchical inheritance.
+- **Hierarchical Inheritance**: More than one derived classes (child classes) are created from a single parent class in hierarchical inheritance. (Example [ex12_hierarchical_inheritance.py](ex12_hierarchical_inheritance.py))
 - **Private members of parent class**: We can make an instance variable of parent class private by adding double underscores before its name.
-  Private instance variables won't be inherited by the child class. (Example [ex12_private_instance_var.py](ex12_private_instance_var.py))
+  Private instance variables won't be inherited by the child class. (Example [ex13_private_instance_var.py](ex13_private_instance_var.py))
 
 
 ### Encapsulation
