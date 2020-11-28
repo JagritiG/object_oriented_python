@@ -29,6 +29,17 @@
 
 14. Example of destructor (Example: [ex14_destructor.py](ex14_destructor.py))
 
+15. Example of destructor (Example: [ex14_destructor.py](ex14_destructor.py))
+
+16. Example of Polymorphism - Duck Typing (Example: [ex16_polymorphism_duck_typing.py](ex16_polymorphism_duck_typing.py))
+
+17. Example of Polymorphism - Operator Overloading (Example: [ex17_polymorphism_method_overloading.py](ex17_polymorphism_method_overloading.py))
+
+18. Example of Polymorphism - Method Overloading (Example: [ex18_polymorphism_operator_overloading.py](ex18_polymorphism_operator_overloading.py))
+
+19. Example of Polymorphism - Method Overriding (Example: [ex19_polymorphism_method_overriding.py](ex19_polymorphism_method_overriding.py))
+
+20. Example of Metaclass (Example: [ex20_metaclass.py](ex20_metaclass.py))
 
 ### Classes and Objects
 - A **Class** is a user-defined blueprint or prototype from which objects are created.
@@ -61,12 +72,36 @@
 - **Private members of parent class**: We can make an instance variable of parent class private by adding double underscores before its name.
   Private instance variables won't be inherited by the child class. (Example [ex13_private_instance_var.py](ex13_private_instance_var.py))
 
-
 ### Encapsulation
+- The action of enclosing something in or as if in a capsule.
+- Encapsulation refers to the bundling of data with the methods that operate on that data, or the restricting of direct access
+  to some of an object's components.
+- The features of encapsulation are supported using classes in most object-oriented languages, although other alternatives also exist.
+- To prevent accidental modification of data, an object’s variable can only be changed by an object’s method.
+- Those types of object's variables are known as **Private variable**.
+- In Python, a variable that is prefixed by **double underscore** is considered as **Private**.
+- And a variable whose name is prefixed by a **single underscore** is considered **Protected member**.
+- **Protected members** are those members of the class that cannot be accessed outside the class but can be accessed from within the class.
+  and its subclasses.
+- Whereas **Private variable** should neither be accessed outside the class nor by any base class.
 
+### Polymorphism (Example: [ex15_polymorphism.py](ex15_polymorphism.py))
+- The condition of occurring in several different forms.
+- In programming languages and type theory, polymorphism is the provision of a single interface to entities of different types
+  or the use of a single symbol to represent multiple different types.
+- Python inbuilt polymorphic functions (Example: [ex15_polymorphism.py](ex15_polymorphism.py))
+- User defined polymorphic function (Example: [ex15_polymorphism.py](ex15_polymorphism.py))
+- Polymorphism with class methods (Example: [ex15_polymorphism.py](ex15_polymorphism.py))
+- Polymorphism with inheritance (Example: [ex15_polymorphism.py](ex15_polymorphism.py))
+- Polymorphism with function and objects (Example: [ex15_polymorphism.py](ex15_polymorphism.py))
 
-### Polymorphism
+### Ways of implementing Polymorphism in Python
+- Duck Typing (Example: [ex16_polymorphism_duck_typing.py](ex16_polymorphism_duck_typing.py))
+- Operator Overloading (Example: [ex17_polymorphism_method_overloading.py](ex17_polymorphism_method_overloading.py))
+- Method Overloading (Example: [ex18_polymorphism_operator_overloading.py](ex18_polymorphism_operator_overloading.py))
+- Method Overriding (Example: [ex19_polymorphism_method_overriding.py](ex19_polymorphism_method_overriding.py))
 
+### Metaprogramming with Metaclass (Example: [ex20_metaclass.py](ex20_metaclass.py))
 
 ### Properties of Class Attribute (Example: [ex4_class_attribute.py](ex4_class_attribute.py))
 - A class attribute is like a global variable of the class which is available to all instances under the class.
@@ -105,8 +140,6 @@
 - The getter method allows to access the attribute value
 - Setter method sets the attribute value. Setter method takes only one value.
 - Deleter method deletes the assigned value by the setter method.
-
-### Metaprogramming with Metaclass
 
 ### Special methods (Example: [ex9_special_methods.py](ex9_special_methods.py))
     See [docs.python.org](https://docs.python.org/3/reference/datamodel.html#specialnames)
@@ -166,6 +199,5 @@
 #### Emulating callable objects
 - **_object.\__call\__(self [, args...] )_**:
   - Called when the instance is “called” as a function
-
 
 [Ref: [geekesforgeeks](https://www.geeksforgeeks.org/class-method-vs-static-method-python/?ref=lbp), [medium.com](https://medium.com/@deva.r.p/object-oriented-programming-in-python-a-cheatsheet-7ff4711b9eea)]
