@@ -41,6 +41,8 @@
 
 20. Example of Metaclass (Example: [ex20_metaclass.py](ex20_metaclass.py))
 
+21. Example of Abstraction (Example: [ex21_abstraction.py](ex21_abstraction.py))
+
 ### Classes and Objects
 - A **Class** is a user-defined blueprint or prototype from which objects are created.
 - An **Object** is an instance of a Class.
@@ -102,6 +104,8 @@
 - Method Overriding (Example: [ex19_polymorphism_method_overriding.py](ex19_polymorphism_method_overriding.py))
 
 ### Metaprogramming with Metaclass (Example: [ex20_metaclass.py](ex20_metaclass.py))
+
+### Abstraction (Example: [ex21_abstraction.py](ex21_abstraction.py))
 
 ### Properties of Class Attribute (Example: [ex4_class_attribute.py](ex4_class_attribute.py))
 - A class attribute is like a global variable of the class which is available to all instances under the class.
@@ -200,4 +204,4 @@
 - **_object.\__call\__(self [, args...] )_**:
   - Called when the instance is “called” as a function
 
-[Ref: [geekesforgeeks](https://www.geeksforgeeks.org/class-method-vs-static-method-python/?ref=lbp), [medium.com](https://medium.com/@deva.r.p/object-oriented-programming-in-python-a-cheatsheet-7ff4711b9eea)]
+[Ref: [geekesforgeeks](https://www.geeksforgeeks.org/class-method-vs-static-method-python/?ref=lbp), [medium.com](https://medium.com/@deva.r.p/object-oriented-programming-in-python-a-cheatsheet-7ff4711b9eea), [www.edureka.co](https://www.edureka.co/blog/python-class/#Abstraction)]
