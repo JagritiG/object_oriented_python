@@ -1,47 +1,47 @@
 ## Object Oriented Python
 
 
-1. Example of single inheritance (Example [ex1_single_inheritance.py](ex1_single_inheritance.py))
+1. Example of single inheritance (Example [1_single_inheritance.py](1_single_inheritance.py))
 
-2. Example of instance attribute and instance method (Example: [ex2_instance_variable.py](ex2_instance_variable.py))
+2. Example of instance attribute and instance method (Example: [2_instance_variable.py](2_instance_variable.py))
 
-3. Example of initializing subclass using super() (Example: [ex3_initialize_subclass_using_super.py](ex3_initialize_subclass_using_super.py))
+3. Example of initializing subclass using super() (Example: [3_initialize_subclass_using_super.py](3_initialize_subclass_using_super.py))
 
-4. Example of Class Attribute and instance method (Example: [ex4_class_attribute.py](ex4_class_attribute.py))
+4. Example of Class Attribute and instance method (Example: [4_class_attribute.py](4_class_attribute.py))
 
-5. Example of Class Method (Example: [ex5_class_method.py](ex5_class_method.py))
+5. Example of Class Method (Example: [5_class_method.py](5_class_method.py))
 
-6. Example of Static Method (Example: [ex6_static_method.py](ex6_static_method.py))
+6. Example of Static Method (Example: [6_static_method.py](6_static_method.py))
 
-7. Example of Decorator (Example: [ex7_decorator.py](ex7_decorator.py))
+7. Example of Decorator (Example: [7_decorator.py](7_decorator.py))
 
-8. Example of @property decorator (Example: [ex8_property_decorator.py](ex8_property_decorator.py))
+8. Example of @property decorator (Example: [8_property_decorator.py](8_property_decorator.py))
 
-9. Example of Special Methods (Example: [ex9_special_methods.py](ex9_special_methods.py))
+9. Example of Special Methods (Example: [9_special_methods.py](9_special_methods.py))
 
-10. Example of Multiple inheritance (Example: [ex10_multiple_inheritance.py](ex10_multiple_inheritance.py))
+10. Example of Multiple inheritance (Example: [10_multiple_inheritance.py](10_multiple_inheritance.py))
 
-11. Example of Multilevel inheritance (Example: [ex11_multilevel_inheritance.py](ex11_multilevel_inheritance.py))
+11. Example of Multilevel inheritance (Example: [11_multilevel_inheritance.py](11_multilevel_inheritance.py))
 
-12. Example of Hierarchical inheritance (Example: [ex12_hierarchical_inheritance.py](ex12_hierarchical_inheritance.py))
+12. Example of Hierarchical inheritance (Example: [12_hierarchical_inheritance.py](12_hierarchical_inheritance.py))
 
-13. Example of Private instance variance (Example: [ex13_private_instance_var.py](ex13_private_instance_var.py))
+13. Example of Private instance variance (Example: [13_private_instance_var.py](13_private_instance_var.py))
 
-14. Example of destructor (Example: [ex14_destructor.py](ex14_destructor.py))
+14. Example of destructor (Example: [14_destructor.py](14_destructor.py))
 
-15. Example of destructor (Example: [ex14_destructor.py](ex14_destructor.py))
+15. Example of destructor (Example: [15_polymorphism.py](15_polymorphism.py))
 
-16. Example of Polymorphism - Duck Typing (Example: [ex16_polymorphism_duck_typing.py](ex16_polymorphism_duck_typing.py))
+16. Example of Polymorphism - Duck Typing (Example: [16_polymorphism_duck_typing.py](16_polymorphism_duck_typing.py))
 
-17. Example of Polymorphism - Operator Overloading (Example: [ex17_polymorphism_method_overloading.py](ex17_polymorphism_method_overloading.py))
+17. Example of Polymorphism - Operator Overloading (Example: [17_polymorphism_method_overloading.py](17_polymorphism_method_overloading.py))
 
-18. Example of Polymorphism - Method Overloading (Example: [ex18_polymorphism_operator_overloading.py](ex18_polymorphism_operator_overloading.py))
+18. Example of Polymorphism - Method Overloading (Example: [18_polymorphism_operator_overloading.py](18_polymorphism_operator_overloading.py))
 
-19. Example of Polymorphism - Method Overriding (Example: [ex19_polymorphism_method_overriding.py](ex19_polymorphism_method_overriding.py))
+19. Example of Polymorphism - Method Overriding (Example: [19_polymorphism_method_overriding.py](19_polymorphism_method_overriding.py))
 
-20. Example of Metaclass (Example: [ex20_metaclass.py](ex20_metaclass.py))
+20. Example of Metaclass (Example: [20_metaclass.py](20_metaclass.py))
 
-21. Example of Abstraction (Example: [ex21_abstraction.py](ex21_abstraction.py))
+21. Example of Abstraction (Example: [21_abstraction.py](21_abstraction.py))
 
 ### Classes and Objects
 - A **Class** is a user-defined blueprint or prototype from which objects are created.
@@ -51,7 +51,7 @@
 - Each class instance have attributes, defined in the class, for maintaining its state.
 - Class instances also have methods, defined in the class, for modifying its state.
 
-### Constructors (Example [ex1_single_inheritance.py](ex1_single_inheritance.py))
+### Constructors (Example [1_single_inheritance.py](1_single_inheritance.py))
 - We initialise(assign values) an object using Constructors.
 - In Python the _\__init\__()_ method is called the constructor and is always called when an object is created.
 - _\__init\__()_ method creates the object's instance variables and performs any other one-time processing.
@@ -59,7 +59,7 @@
 - **Parameterized constructor**: The parameterized constructor accepts arguments.
   The parameterized constructor take _self_ as its first argument and the rest of the arguments are provided by the programmer.
 
-### Destructors (Example: [ex14_destructor.py](ex14_destructor.py))
+### Destructors (Example: [14_destructor.py](14_destructor.py))
 - Destructors are called to destroy an object.
 - The _\__del\__()_ method is a known as a destructor method in Python.
 
@@ -67,57 +67,57 @@
 - **Inheritance** is the capability of one class to inherit the properties from another class.
 - It is transitive in nature. For example, if class B inherits from class A, then all the
   subclasses of B would automatically inherit from class A.
-- **Single inheritance**: When a child class inherits from only one parent class, it is called single inheritance. (Example [ex1_single_inheritance.py](ex1_single_inheritance.py))
-- **Multiple inheritance**: When a child class inherits from multiple parent classes, it is called multiple inheritance. (Example [ex10_multiple_inheritance.py](ex10_multiple_inheritance.py))
-- **Multilevel inheritance**: When we have a child and grandchild relationship. (Example [ex11_multilevel_inheritance.py](ex11_multilevel_inheritance.py))
-- **Hierarchical Inheritance**: More than one derived classes (child classes) are created from a single parent class in hierarchical inheritance. (Example [ex12_hierarchical_inheritance.py](ex12_hierarchical_inheritance.py))
+- **Single inheritance**: When a child class inherits from only one parent class, it is called single inheritance. (Example [1_single_inheritance.py](1_single_inheritance.py))
+- **Multiple inheritance**: When a child class inherits from multiple parent classes, it is called multiple inheritance. (Example [10_multiple_inheritance.py](10_multiple_inheritance.py))
+- **Multilevel inheritance**: When we have a child and grandchild relationship. (Example [11_multilevel_inheritance.py](11_multilevel_inheritance.py))
+- **Hierarchical Inheritance**: More than one derived classes (child classes) are created from a single parent class in hierarchical inheritance. (Example [12_hierarchical_inheritance.py](12_hierarchical_inheritance.py))
 - **Private members of parent class**: We can make an instance variable of parent class private by adding double underscores before its name.
-  Private instance variables won't be inherited by the child class. (Example [ex13_private_instance_var.py](ex13_private_instance_var.py))
+  Private instance variables won't be inherited by the child class. (Example [13_private_instance_var.py](13_private_instance_var.py))
 
-### Encapsulation (Example [ex13_private_instance_var.py](ex13_private_instance_var.py))
+### Encapsulation (Example [13_private_instance_var.py](13_private_instance_var.py))
 - The action of enclosing something in or as if in a capsule.
 - Encapsulation refers to the bundling of data with the methods that operate on that data, or the restricting of direct access
   to some of an object's components.
 - The features of encapsulation are supported using classes in most object-oriented languages, although other alternatives also exist.
 - To prevent accidental modification of data, an object’s variable can only be changed by an object’s method.
 - Those types of object's variables are known as **Private variable**.
-- In Python, a variable that is prefixed by **double underscore** is considered as **Private**. (Example [ex13_private_instance_var.py](ex13_private_instance_var.py))
+- In Python, a variable that is prefixed by **double underscore** is considered as **Private**. (Example [13_private_instance_var.py](13_private_instance_var.py))
 - And a variable whose name is prefixed by a **single underscore** is considered **Protected member**.
 - **Protected members** are those members of the class that cannot be accessed outside the class but can be accessed from within the class.
   and its subclasses.
 - Whereas **Private variable** should neither be accessed outside the class nor by any base class.
 
-### Polymorphism (Example: [ex15_polymorphism.py](ex15_polymorphism.py))
+### Polymorphism (Example: [15_polymorphism.py](15_polymorphism.py))
 - The condition of occurring in several different forms.
 - In programming languages and type theory, polymorphism is the provision of a single interface to entities of different types
   or the use of a single symbol to represent multiple different types.
-- Python inbuilt polymorphic functions (Example: [ex15_polymorphism.py](ex15_polymorphism.py))
-- User defined polymorphic function (Example: [ex15_polymorphism.py](ex15_polymorphism.py))
-- Polymorphism with class methods (Example: [ex15_polymorphism.py](ex15_polymorphism.py))
-- Polymorphism with inheritance (Example: [ex15_polymorphism.py](ex15_polymorphism.py))
-- Polymorphism with function and objects (Example: [ex15_polymorphism.py](ex15_polymorphism.py))
+- Python inbuilt polymorphic functions (Example: [15_polymorphism.py](15_polymorphism.py))
+- User defined polymorphic function (Example: [15_polymorphism.py](15_polymorphism.py))
+- Polymorphism with class methods (Example: [15_polymorphism.py](15_polymorphism.py))
+- Polymorphism with inheritance (Example: [15_polymorphism.py](15_polymorphism.py))
+- Polymorphism with function and objects (Example: [15_polymorphism.py](15_polymorphism.py))
 
 ### Ways of implementing Polymorphism in Python
-- Duck Typing (Example: [ex16_polymorphism_duck_typing.py](ex16_polymorphism_duck_typing.py))
-- Operator Overloading (Example: [ex17_polymorphism_method_overloading.py](ex17_polymorphism_method_overloading.py))
-- Method Overloading (Example: [ex18_polymorphism_operator_overloading.py](ex18_polymorphism_operator_overloading.py))
-- Method Overriding (Example: [ex19_polymorphism_method_overriding.py](ex19_polymorphism_method_overriding.py))
+- Duck Typing (Example: [16_polymorphism_duck_typing.py](16_polymorphism_duck_typing.py))
+- Operator Overloading (Example: [17_polymorphism_method_overloading.py](17_polymorphism_method_overloading.py))
+- Method Overloading (Example: [18_polymorphism_operator_overloading.py](18_polymorphism_operator_overloading.py))
+- Method Overriding (Example: [19_polymorphism_method_overriding.py](19_polymorphism_method_overriding.py))
 
-### Metaprogramming with Metaclass (Example: [ex20_metaclass.py](ex20_metaclass.py))
+### Metaprogramming with Metaclass (Example: [20_metaclass.py](20_metaclass.py))
 
-### Abstraction (Example: [ex21_abstraction.py](ex21_abstraction.py))
+### Abstraction (Example: [21_abstraction.py](21_abstraction.py))
 
-### Properties of Class Attribute (Example: [ex4_class_attribute.py](ex4_class_attribute.py))
+### Properties of Class Attribute (Example: [4_class_attribute.py](4_class_attribute.py))
 - A class attribute is like a global variable of the class which is available to all instances under the class.
 - The other benefit is, updating the class attribute updates all the instances of the class.
 
-### Properties of @classmethod: (Example: [ex5_class_method.py](ex5_class_method.py))
+### Properties of @classmethod: (Example: [5_class_method.py](5_class_method.py))
 - A class method receives the class as implicit first argument,just like an instance method receives the instance.
 - A class method is bound to the class, not to the object of the class.
 - They have the access to the state of the class as it takes a class parameter that points to the class, not to the object instance.
 - It can modify a class state that would apply across all the instances of the class.
 
-### Properties of @staticmethod (Example: [ex6_static_method.py](ex6_static_method.py))
+### Properties of @staticmethod (Example: [6_static_method.py](6_static_method.py))
 - A static method does not receive an implicit first argument.
 - A static method is also a method which is bound to the class and not the object of the class.
 - A static method can’t access or modify class state.
@@ -132,20 +132,20 @@
   to create a static method in python.
 - We generally use class method to create factory methods. Factory methods return class object
   (similar to a constructor) for different use cases. We generally use static methods to create utility functions.
-- Example: [ex5_class_method.py](ex5_class_method.py), [ex6_static_method.py](ex6_static_method.py)
+- Example: [5_class_method.py](5_class_method.py), [6_static_method.py](6_static_method.py)
 
-### Decorators (Example: [ex7_decorator.py](ex7_decorator.py))
+### Decorators (Example: [7_decorator.py](7_decorator.py))
 - Decorators allow programmers to modify the behavior of the function or class.
 - Decorators allow to wrap another function in order to modify the behavior of wrapped function.
 
-### Property Decorator - @property (Example: [ex8_property_decorator.py](ex8_property_decorator.py))
+### Property Decorator - @property (Example: [8_property_decorator.py](8_property_decorator.py))
 - @property decorator is a built-in python decorator
 - Allow to access and modify property attributes of a class using the associated getter, setter, and deleter
 - The getter method allows to access the attribute value
 - Setter method sets the attribute value. Setter method takes only one value.
 - Deleter method deletes the assigned value by the setter method.
 
-### Special methods (Example: [ex9_special_methods.py](ex9_special_methods.py))
+### Special methods (Example: [9_special_methods.py](9_special_methods.py))
     See [docs.python.org](https://docs.python.org/3/reference/datamodel.html#specialnames)
 
 - **_object.\__repr\__()_**:
