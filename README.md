@@ -72,14 +72,14 @@
 - **Private members of parent class**: We can make an instance variable of parent class private by adding double underscores before its name.
   Private instance variables won't be inherited by the child class. (Example [ex13_private_instance_var.py](ex13_private_instance_var.py))
 
-### Encapsulation
+### Encapsulation (Example [ex13_private_instance_var.py](ex13_private_instance_var.py))
 - The action of enclosing something in or as if in a capsule.
 - Encapsulation refers to the bundling of data with the methods that operate on that data, or the restricting of direct access
   to some of an object's components.
 - The features of encapsulation are supported using classes in most object-oriented languages, although other alternatives also exist.
 - To prevent accidental modification of data, an object’s variable can only be changed by an object’s method.
 - Those types of object's variables are known as **Private variable**.
-- In Python, a variable that is prefixed by **double underscore** is considered as **Private**.
+- In Python, a variable that is prefixed by **double underscore** is considered as **Private**. (Example [ex13_private_instance_var.py](ex13_private_instance_var.py))
 - And a variable whose name is prefixed by a **single underscore** is considered **Protected member**.
 - **Protected members** are those members of the class that cannot be accessed outside the class but can be accessed from within the class.
   and its subclasses.
